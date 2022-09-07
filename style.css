@@ -29,9 +29,22 @@ header .row{
     display: flex;
     justify-content: space-between;
 }
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+}
 header img{
     width: 100px;
+    padding-top: 20px;
+    
 }
+header i{
+    color: white;
+    padding-top: 20px;;
+}
+
 /* #endregion header */
 .row{
     display: flex;
@@ -89,4 +102,27 @@ h5{
 }
 span:first-child{
     color: red;
+}
+footer{
+    background-color: var(--boo-darker);
+    margin-top: 40px;
+}
+footer .row{
+    display: flex;
+    justify-content: space-between;
+}
+.bool, .find{
+    color: white;
+    padding-top: 30px;
+}
+.social{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.social i{
+    background-color: white;
+    color: #1A1A1A;
+    padding: 3px;
+    margin: 3px;
 }
