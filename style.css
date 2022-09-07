@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+:root{
+    --boo-sostenibilità: #008000;
+    --boo-darker: #1A1A1A;
+    --boo-background: #EBD7C9;
+    --boo-discount: #FF0000;
+    --boo-fixed: #FF6900;
+
+}
+/* #region header */
+.fixed{
+    background-color: var(--boo-fixed);
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header .row{
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    width: 100px;
+}
+/* #endregion header */
