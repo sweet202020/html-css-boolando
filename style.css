@@ -133,3 +133,6 @@ footer .row{
     display: block;
     position: absolute;
 }
+.like:hover .hearts{
+    color: #FF0000;
+}
