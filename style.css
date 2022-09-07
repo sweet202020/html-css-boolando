@@ -126,3 +126,10 @@ footer .row{
     padding: 3px;
     margin: 3px;
 }
+.image-hover{
+    display: none;
+}
+.like:hover .image-hover{
+    display: block;
+    position: absolute;
+}
